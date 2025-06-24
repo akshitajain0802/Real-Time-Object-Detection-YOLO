@@ -4,21 +4,31 @@ This project is a Deep Learning-based Computer Vision system that performs real-
 
 # Features
 Real-time detection from webcam or video
+
 Trained with YOLOv8 for fast, accurate detection
+
 Detects 20 different object categories
+
 Uses confidence threshold filtering for improved precision
+
 Built with Deep Learning (CNNs) and Computer Vision
 
 # Project Structure
 Real-Time-Object-Detection-YOLO/
 ├── dataset/               # Image dataset (optional for large datasets)
+
 ├── weights/               # Trained YOLOv8 model weights (.pt files)
 ├── scripts/
 │   ├── train.py           # Script to train the model
+
 │   ├── real_time_detect.py # Real-time detection with webcam
+
 ├── data.yaml              # Dataset configuration file
+
 ├── requirements.txt       # Project dependencies
+
 ├── README.md              # Project documentation
+
 └── .gitignore
 
 # Installation
@@ -30,3 +40,13 @@ cd Real-Time-Object-Detection-YOLO
 pip install -r requirements.txt
 
 3)Ensure your dataset is labeled in YOLO format and data.yaml is configured.
+
+ # Results
+Precision Achieved: 76.4%
+
+Applied Confidence Threshold: 0.5
+
+Real-time detection speed with YOLOv8 nano model
+
+# License
+This project is licensed under the MIT License.
