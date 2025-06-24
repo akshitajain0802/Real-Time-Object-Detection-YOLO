@@ -15,19 +15,21 @@ Built with Deep Learning (CNNs) and Computer Vision
 
 # Project Structure
 Real-Time-Object-Detection-YOLO/
-├── dataset/               # Image dataset (optional for large datasets)
+├── dataset/ 
 
-├── weights/               # Trained YOLOv8 model weights (.pt files)
+├── weights/
+
 ├── scripts/
-│   ├── train.py           # Script to train the model
 
-│   ├── real_time_detect.py # Real-time detection with webcam
+│├── train.py          
 
-├── data.yaml              # Dataset configuration file
+│├── real_time_detect.py 
 
-├── requirements.txt       # Project dependencies
+├── data.yaml              
 
-├── README.md              # Project documentation
+├── requirements.txt  
+
+├── README.md              
 
 └── .gitignore
 
