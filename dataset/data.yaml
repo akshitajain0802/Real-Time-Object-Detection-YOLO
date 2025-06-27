@@ -1,0 +1,7 @@
+path: D:/AIML/Real-Time-Object-Detection-YOLO/dataset
+
+train: images/train
+val: images/val
+
+nc: 1
+names: ['class_0']
